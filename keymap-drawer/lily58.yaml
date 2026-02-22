@@ -41,7 +41,7 @@ layers:
   - Sft+9
   - Sft+=
   - INT1
-  - '&p LS(N7)'
+  - '&Kp LS(N7)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
