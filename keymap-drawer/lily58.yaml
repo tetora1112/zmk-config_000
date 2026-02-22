@@ -53,25 +53,25 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - lower
+  - Low
   - ␣
   - $$mdi:apple-keyboard-shift$$
   - raise
   - Caps Lock
   - Caps Lock
-  lower:
+  Low:
+  - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - BT CLR
-  - OUT TOG
+  - BT 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌦
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -230,7 +230,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - lower
+  - Low
   - ␣
   - ⏎
   - raise
