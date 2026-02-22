@@ -106,8 +106,8 @@
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
 //&kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp TILDE
 &kp JP_GRAVE  &kp JP_EXCL      &kp JP_AT        &kp JP_HASH      &kp JP_DLLR    &kp JP_PRCNT                                &kp JP_CARET &kp JP_AMPS  &kp JP_ASTRK  &kp JP_LPAR  &kp JP_RPAR  &kp JP_TILDE
-
-&trans     &trans           &trans            &trans            &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
+//&trans     &trans           &trans            &trans            &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
+&kp JP_BSLH   &kp JP_SQT       &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &ext_power EP_ON  &bt BT_CLR      &trans  &trans       &kp JP_MINUS &kp JP_PLUS   &kp JP_LBRC  &kp JP_RBRC  &kp JP_PIPE
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
             >;
 
