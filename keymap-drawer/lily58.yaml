@@ -28,18 +28,18 @@ layers:
   - F10
   - F11
   - F12
-  - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - '~'
+  - Sft+[
+  - Sft+1
+  - '['
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - '='
+  - Sft+6
+  - Sft+'
+  - Sft+8
+  - Sft+9
+  - Sft+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
