@@ -47,6 +47,29 @@
 
 
 / {
+     behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&to 0>, <&to 3>;
+        };
+
+        grzero: grave_zero {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N0>, <&kp JP_MINUS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        grbspc: grave_backspace {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp BSPC>, <&kp DEL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+ 
     keymap {
         compatible = "zmk,keymap";
 
