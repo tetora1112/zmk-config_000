@@ -9,7 +9,7 @@ layers:
   - BT 3
   - BT 4
   - BT CLR
-  - OUT TOG
+  - BT 5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
