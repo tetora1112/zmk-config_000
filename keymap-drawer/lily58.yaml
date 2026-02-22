@@ -4,18 +4,18 @@ layers:
     L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '[', ']', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$',
     Low, ␣, ⏎, Rai, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
   Low:
-  - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
-  - BT 5
+  - BT CLR
+  - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌦
   - F1
   - F2
   - F3
